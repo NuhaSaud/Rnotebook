@@ -1,0 +1,33 @@
+---
+title: "Tutorial-1"
+output: html_notebook
+---
+This is tutorial-1:Data Exploration and visualization notebook. You can download it and run it on your RStudio.
+
+To create a notebook: select new from Rstudio --> notebook. 
+
+Iris dataset in a predifined dataset in R to use it just run 
+```{r}
+View(iris)
+```
+
+To check the number of rows
+```{r}
+nrow(iris)
+```
+To check number of columns 
+```{r}
+ncol(iris)
+```
+To check the dimensionality 
+```{r}
+dim(iris)
+```
+Histogram plot on column "Sepal.Length"
+```{r}
+hist(iris$Sepal.Length)
+```
+
+To see how your notebook will look like, click on preview.
+
+The final step is to comments you changes and push it to your github repository.
